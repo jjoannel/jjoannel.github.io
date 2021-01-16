@@ -16,7 +16,7 @@
 title: Joanne Li
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Joanne Li Portfolio
+  Joanne Li Github
 twitter_username: jjoannel
 github_username: jjoannel
 minimal_mistakes_skin: default
@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Joanne Li"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/Profile.jpeg"
   bio    : "Statistician."
   links:
     - label: "San Francisco, CA"
