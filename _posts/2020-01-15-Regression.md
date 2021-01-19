@@ -7,12 +7,12 @@ tags:
   - Regression analysis
 ---
 
-What problems can regression analysis solve?
-Regression analysis is a type of supervised learning used to predict our response variable, whether quantitative or qualitative values. 
+#What problems can regression analysis solve?
 
-The response variable determines what type of regression model to use.
-Quantitative response variable: 
-Qualitative response variable:
+Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classificatoin or multi-label classification models).
 
-Response variable:
-Predictors selected:
+Regression model of housing prices during a pandemic
+
+Data set resources:
+- https://archive.ics.uci.edu/ml/datasets.php
+- https://datasetsearch.research.google.com/
