@@ -13,6 +13,19 @@ Regression analysis is a type of supervised learning used to predict our respons
 
 Popular regression models are: predicting housing prices
 
+**Steps for basic Linear Regression (in R)**
+1) Load data into R
+2) Summary stats
+3) Plot into Dot, Box, Scatterplot and interpret them
+4) Run Regression, add regression line to plot
+5) Make inferences: Get beta0, beta1, residuals, yhat
+6) Interpret slope, intercept
+7) Interpret R^2
+8) Find residuals, yhat, check for properties
+9) Find CI, PI for given X's
+10) Plot CI & PI
+11) Run visual diagnostics of comment
+
 **Interpretation of Results**
 
 - **R-squared:** The coefficient of determination measures of how well the regression does with respect to the mean.
