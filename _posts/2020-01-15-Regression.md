@@ -18,9 +18,9 @@ Popular regression models are: predicting housing prices
 - **R-squared:** The coefficient of determination measures of how well the regression does with respect to the mean.
 - **Adj. R-squared:** The coefficient of determination adjusted based on the number of parameters in a model and the number of observations that helped build it.
 - **F-statistic:** This is a measure telling you if, from a statistical point of view, all your coefficients, apart from the bias and taken together, are different from zero. In simple words, it tells you if your regression is really better than a simple average.
-Prob (F-statistic): This is the probability that you got that F-statistic just by lucky chance due to the observations that you have used (such a probability is actually called the p-value of F-statistic). If it is low enough you can be confident that your regression is really better than a simple mean. Usually in statistics and science a test probability has to be equal or lower than 0.05 (a conventional criterion of statistical significance) for having such a confidence.
-AIC: This is the Akaike Information Criterion. AIC is a score that evaluates the model based on the number of observations and the complexity of the model itself. The lesser the AIC score, the better. It is very useful for comparing different models and for statistical variable selection.
-BIC: This is the Bayesian Information Criterion. It works as AIC, but it presents a higher penalty for models with more parameters.
+- **Prob (F-statistic):** This is the probability that you got that F-statistic just by lucky chance due to the observations that you have used (such a probability is actually called the p-value of F-statistic). If it is low enough you can be confident that your regression is really better than a simple mean. Usually in statistics and science a test probability has to be equal or lower than 0.05 (a conventional criterion of statistical significance) for having such a confidence.
+- **AIC:** This is the Akaike Information Criterion. AIC is a score that evaluates the model based on the number of observations and the complexity of the model itself. The lesser the AIC score, the better. It is very useful for comparing different models and for statistical variable selection.
+- **BIC:** This is the Bayesian Information Criterion. It works as AIC, but it presents a higher penalty for models with more parameters.
 
 Dataset resources:
 - https://archive.ics.uci.edu/ml/datasets.php
