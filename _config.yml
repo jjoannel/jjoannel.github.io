@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Joanne Li"
   avatar : "/assets/images/Profile.jpeg"
-  bio    : "Statistician."
+  bio    : "Becoming a data scientist, snowboarder, and yogi!"
   links:
     - label: "San Francisco, CA"
       icon: "fa fa-map-maker"
