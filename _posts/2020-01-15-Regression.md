@@ -1,8 +1,6 @@
 ---
 title: "Overview of Regressions"
 date: 2020-01-15
-categories:
-  - blog
 tags:
   - Regression analysis
 ---
