@@ -1,6 +1,6 @@
 ---
 title: "Overview of Regressions"
-date: 2020-01-15
+date: 2021-01-01
 tags:
   - Regression analysis
 ---
