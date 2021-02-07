@@ -1,9 +1,35 @@
 ---
-title: "Stock Market Analysis"
+title: "Stock Market 2020-2021 (In Progress)"
 toc: true
 toc_sticky: true
-date: 2021-02-01
+date: 2021-02-07
 tags:
   - Time series
 ---
 
+##Background - Economy in 2020 and 2021
+On March 11th 2020, the WHO finally declared the Coronavirus disease (COVID-19) a worldwide pandemic. Shortly after, California issued statewide shelter-in-place orders to curb infection rates. You can follow the entire timeline of California specific state and federal actions during the pandemic [link](https://calmatters.org/health/coronavirus/2020/04/gavin-newsom-coronavirus-updates-timeline/). During this time, SF Bay Area unemployment rates alone shot up from the usual 3% to 13% begining in April 2020 due to the consequences of shelter-in-place [link](https://data.bls.gov/pdq/SurveyOutputServlet). In reaction to the decrease of product/spending, the government begain writing large stimulus checks. With the combination of the following causes, this created an economic risk for mid-2020 and beyond: market corrections, high unemployment rate, a declined U.S. fiscal position from the deficits and debt, and lastly inflation. 
+
+2020 Notable economic relief bills passed, see [more details](https://ballotpedia.org/Federal_government_responses_to_the_coronavirus_(COVID-19)_pandemic,_2020-2021):
+- March 2020 CARES Act: $2.2 trillion
+- April 2020 Second Paycheck Protection Program: $484 billion
+- May 2020 Coronavirus relief packag: $3 trillion 
+- July 2020: $1.6 billion to Novavax Inc. and $450 million to Regeneron Pharmaceuticals Inc.
+- July 2020: $1.95 billion to Pfizer and BioNTech 
+- August 2020: $2.1 billion Sanofi and GlaxoSmithKline 
+- December 2020 Consolidated Appropriations Act: $900 billion second stimulus package
+- February 2021: President Biden’s $1.9 trillion stimulus package (PENDING AS OF 02/07/2021)
+
+As we start off 2021, we see the rise of individual stock volatility that was lead by Reddit's [r/WallStreetBets](https://www.reddit.com/r/wallstreetbets/)... 
+
+##Objective
+It's hard to determine where we should invest during this time. Jeremy Grantham hints at the possible bubble of stocks and that we should possibly reduce risk. In this analysis I'd like to dive into .... (IN PROGRESS)
+
+PE ratio helps determine the valuation of a stock, it is calculated using price per share / earnings per share. The lower the P/E ratio, it means that the individual stock has lower stock price compared the company's fixed amount of earnings. Hence lower P/E ratio signifies undervalue vs high P/E ratio may be overvalued. This is something subjective since high growth stocks can be priced high (i.e. Tesla 
+
+##Analysis
+
+##Great articles/videos:
+- [Why Grantham Says the Next Crash Will Rival 1929, 2000](https://www.youtube.com/watch?v=RYfmRTyl56w&feature=youtu.be)
+- [A Bubble Is Inflating. Where Can Investors Hide?](https://www.barrons.com/articles/a-bubble-is-inflating-where-can-investors-hide-51612540675)
+- [Stock Market Bubble - outlook 2021](https://www.youtube.com/watch?v=zfNskD5JiFk&feature=youtu.be)
