@@ -10,7 +10,8 @@ tags:
 Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). 
 
 **Notation for regression models**
-Let Y = response, X = X_1,.., X_n denote a list of predictor variables, \beta = 
+Let Y = response, X = X_1,.., X_n denote a list of predictor variables, beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficients
+
 
 Popular regression models are: predicting housing prices
 
