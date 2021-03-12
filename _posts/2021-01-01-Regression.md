@@ -5,32 +5,46 @@ tags:
   - Regression analysis
 ---
 
-**What problems can regression analysis solve?**
+Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect. 
 
-Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect.
+Depending on the variables to analyze, Regression can cover a wide variety of different models (I will outline linear regressions in this post):
+- Linear Regressions: Simple linear regression, Multiple linear regression
+- Logistic Regressions: Simple logistic, Mutliple logistic, Multinomial logistic regression
+- Robust Linear Regression
+- Bayesian Linear Regression
+- Poisson Linear Regression
+- Multivariate Adaptive Regression
+- Generalized additive model
+- Regression trees
+- Support vector regression
+- Random forest regression
+- Regression with Neural Networks
 
-**Notation for regression models**
+**Notation for Linear regression models**
 
 Simple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X<sub>i</sub> + Error<sub>i</sub>
+
+Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X<sub>i</sub> + ... + beta<sub>n</sub> X<sub>n</sub> + Error<sub>i</sub>
+
 - Y = response
 - X = X_1,.., X_n denote a list of predictors
 - beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficient parameters; beta<sub>1</sub>
 - E = random error
 
 **Steps for basic Linear Regression (in R)**
-1) Load data into R
-2) Summary stats
-3) Plot into Dot, Box, Scatterplot and interpret them
-4) Run Regression, add regression line to plot
-5) Make inferences: Get beta0, beta1, residuals, yhat
-6) Interpret slope, intercept
-7) Interpret R-squared
-8) Find residuals, yhat, check for properties
-9) Find CI, PI for given X's
-10) Plot CI & PI
-11) Run visual diagnostics
+1.  Load data into R
+2.  Summary stats
+3.  Plot into Dot, Box, Scatterplot and interpret them
+4.  Run Regression, add regression line to plot
+5.  Make inferences: Get beta0, beta1, residuals, yhat
+6.  Interpret slope, intercept
+7.  Interpret R-squared
+8.  Find residuals, yhat, check for properties
+9.  Find CI, PI for given X's
+10.  Plot CI & PI
+11.  Run visual diagnostics
 
-**Interpretation of Results**
+**Interpretation of Linear Regression Results**
 
 - **R-squared:** The coefficient of determination measures of how well the regression does with respect to the mean.
 - **Adj. R-squared:** The coefficient of determination adjusted based on the number of parameters in a model and the number of observations that helped build it.
@@ -46,6 +60,6 @@ Books worth reading:
 - An R Companion to Applied Regression, Author(s): Fox, John, Jr.; Weisberg, Harvey Sanford,Publisher: SAGE Publications, Inc, Edition: 2nd
 
 Dataset resources:
-- https://archive.ics.uci.edu/ml/datasets.php
-- https://datasetsearch.research.google.com/
-- https://www.kaggle.com/datasets
+- [UCI dataset](https://archive.ics.uci.edu/ml/datasets.php)
+- [Google database](https://datasetsearch.research.google.com/)
+- [Kaggle dataset](https://www.kaggle.com/datasets)
