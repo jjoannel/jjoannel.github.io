@@ -31,18 +31,17 @@ Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X
 - beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficient parameters
 - E = random error
 
-**Steps for basic Linear Regression (in R)**
+**10 Steps for basic Linear Regression (in R)**
 1.  Load data into R
-2.  Summary stats
-3.  Plot into Dot, Box, Scatterplot and interpret them
-4.  Run Regression, add regression line to plot
-5.  Make inferences: Get beta0, beta1, residuals, yhat
-6.  Interpret slope, intercept
-7.  Interpret R-squared
-8.  Find residuals, yhat, check for properties
-9.  Find CI, PI for given X's
-10.  Plot CI & PI
-11.  Run visual diagnostics
+2.  Interpret Summary stats and Plot into Dot, Box, Scatterplot
+3.  Run Regression, add regression line to plot
+4.  Make inferences: Get beta0, beta1, residuals, yhat
+5.  Interpret slope, intercept
+6.  Interpret R-squared
+7.  Find residuals, yhat, check for properties
+8.  Find CI, PI for given X's
+9.  Plot CI & PI
+10.  Run visual diagnostics
 
 **Interpretation of Linear Regression Results**
 
