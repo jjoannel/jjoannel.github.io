@@ -7,7 +7,7 @@ tags:
 
 Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect. 
 
-Depending on the variables analyzed, Regression can cover a wide variety of models (I outline linear regressions in this post):
+Depending on the variables analyzed, Regression can cover a wide variety of models (I outline the bones of linear regressions in this post):
 - Linear Regressions: Simple linear regression, Multiple linear regression
 - Logistic Regressions: Simple logistic, Mutliple logistic, Multinomial logistic regression
 - Robust Linear Regression
