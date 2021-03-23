@@ -7,7 +7,7 @@ tags:
 
 Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect. 
 
-Depending on the variables to analyze, Regression can cover a wide variety of models (I outline linear regressions in this post):
+Depending on the variables analyzed, Regression can cover a wide variety of models (I outline linear regressions in this post):
 - Linear Regressions: Simple linear regression, Multiple linear regression
 - Logistic Regressions: Simple logistic, Mutliple logistic, Multinomial logistic regression
 - Robust Linear Regression
@@ -30,6 +30,12 @@ Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X
 - X = X<sub>1</sub> ,..., X<sub>n</sub> denote a list of predictors
 - beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficient parameters
 - E = random error
+
+**4 Assumptions for Linear Regressoin models**
+1. Linearity: The relationship between X and mean of Y is linear
+2. Normality: X, Y are normally distributed
+3. Homoscedasticity: Errors have equal variance around the line
+4. Independence: Observations are independent
 
 **10 Steps for basic Linear Regression (in R)**
 1.  Load data into R
