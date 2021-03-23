@@ -31,7 +31,7 @@ Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X
 - beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficient parameters
 - E = random error
 
-**4 Assumptions for Linear Regressoin models**
+**4 Assumptions for Linear Regression models**
 1. Linearity: The relationship between X and mean of Y is linear
 2. Normality: X, Y are normally distributed
 3. Homoscedasticity: Errors have equal variance around the line
