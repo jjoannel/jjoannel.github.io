@@ -58,6 +58,8 @@ The ultimate goal of linear regression models is to minimize the sum of squared 
 
 ### Interpretation of Linear Regression Results
 
+Interpreting notation: For every one unit increase in X<sub>i</sub>, the predicted value of Y<sub>hat</sub> increases by beta<sub>1</sub>.
+
 - **R-squared:** The coefficient of determination measures of how well the regression does with respect to the mean.
 - **Adj. R-squared:** The coefficient of determination adjusted based on the number of parameters in a model and the number of observations that helped build it.
 - **F-statistic:** This is a measure telling you if, from a statistical point of view, all your coefficients, apart from the bias and taken together, are different from zero. In simple words, it tells you if your regression is really better than a simple average.
