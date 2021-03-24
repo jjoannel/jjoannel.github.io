@@ -8,6 +8,7 @@ tags:
 ---
 
 **Types of Regression models**
+
 Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect. 
 
 Depending on the variables analyzed, Regression can cover a wide variety of models (I outline the bones of linear regressions in this post):
@@ -65,13 +66,13 @@ The ultimate goal of linear regression models is to minimize the sum of squared 
 - **AIC:** The Akaike Information Criterion (AIC) is a score that evaluates the model based on the number of observations and the complexity of the model itself. The lesser the AIC score, the better. It is very useful for comparing different models and for statistical variable selection.
 - **BIC:** The Bayesian Information Criterion (BIC) works as AIC, but it presents a higher penalty for models with more parameters.
 
-Books worth reading:
+**Books worth reading**
 - Regression Analysis with Python, Luca Massaron and Alberto Boschetti. Packt Publishing, 2016.
 - Regression Analaysis with R, Giuseppe Ciaburro. Packt Publishing, 2018.
 - Applied Linear Regression Models (4th Ed.), Kutner, Nachtsheim and Neter. McGraw Hill, 2003.
 - An R Companion to Applied Regression, Author(s): Fox, John, Jr.; Weisberg, Harvey Sanford,Publisher: SAGE Publications, Inc, Edition: 2nd
 
-Dataset resources:
+**Dataset resources**
 - [UCI dataset](https://archive.ics.uci.edu/ml/datasets.php)
 - [Google database](https://datasetsearch.research.google.com/)
 - [Kaggle dataset](https://www.kaggle.com/datasets)
