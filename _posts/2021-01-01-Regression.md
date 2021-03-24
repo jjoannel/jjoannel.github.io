@@ -7,7 +7,7 @@ tags:
   - Regression analysis
 ---
 
-**Types of Regression models**
+### Types of Regression models
 
 Regression analysis is a type of supervised learning used to predict our response variable. The response variable can be quantitative or qualitative (binary classification or multi-label classification models). Regressions implies relationships, not cause-and-effect. 
 
@@ -24,7 +24,7 @@ Depending on the variables analyzed, Regression can cover a wide variety of mode
 - Random forest regression
 - Regression with Neural Networks
 
-**Notation for Linear regression models**
+### Notation for Linear regression models
 
 Simple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X<sub>i</sub> + Error<sub>i</sub>
 
@@ -35,17 +35,17 @@ Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X
 - beta = beta<sub>1</sub> ,..., beta<sub>n</sub> denotes the coefficient parameters
 - E = random error
 
-**Goal for Linear Regression models**
+### Goal for Linear Regression models
 
 The ultimate goal of linear regression models is to minimize the sum of squared residuals (SSR) for all observations 𝑖 = 1, …, 𝑛: SSR = Σᵢ(𝑦ᵢ - 𝑓(𝐱ᵢ))². This is known as the ordinary least squares (OLS), where you try to get predicted to fit the actual response as close as possible.
 
-**4 Assumptions for Linear Regression models**
+### 4 Assumptions for Linear Regression models
 1. Linearity: The relationship between X and mean of Y is linear
 2. Normality: X, Y are normally distributed
 3. Homoscedasticity: Errors have equal variance around the line
 4. Independence: Observations are independent
 
-**10 Steps for basic Linear Regression (in R)**
+### 10 Steps for basic Linear Regression (in R)
 1.  Load data into R
 2.  Interpret Summary stats and Plot into Dot, Box, Scatterplot
 3.  Run Regression, add regression line to plot
@@ -57,7 +57,7 @@ The ultimate goal of linear regression models is to minimize the sum of squared 
 9.  Plot CI & PI
 10.  Run visual diagnostics
 
-**Interpretation of Linear Regression Results**
+### Interpretation of Linear Regression Results
 
 - **R-squared:** The coefficient of determination measures of how well the regression does with respect to the mean.
 - **Adj. R-squared:** The coefficient of determination adjusted based on the number of parameters in a model and the number of observations that helped build it.
@@ -66,7 +66,7 @@ The ultimate goal of linear regression models is to minimize the sum of squared 
 - **AIC:** The Akaike Information Criterion (AIC) is a score that evaluates the model based on the number of observations and the complexity of the model itself. The lesser the AIC score, the better. It is very useful for comparing different models and for statistical variable selection.
 - **BIC:** The Bayesian Information Criterion (BIC) works as AIC, but it presents a higher penalty for models with more parameters.
 
-**Books worth reading**
+### Books worth reading
 - Regression Analysis with Python, Luca Massaron and Alberto Boschetti. Packt Publishing, 2016.
 - Regression Analaysis with R, Giuseppe Ciaburro. Packt Publishing, 2018.
 - Applied Linear Regression Models (4th Ed.), Kutner, Nachtsheim and Neter. McGraw Hill, 2003.
