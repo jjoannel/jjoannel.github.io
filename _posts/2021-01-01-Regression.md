@@ -32,6 +32,7 @@ Multiple Linear Regression: Y<sub>i</sub>= beta<sub>0</sub> + beta<sub>1</sub> X
 - E = random error
 
 **Goal for Linear Regression models**
+
 The ultimate goal of linear regression models is to minimize the sum of squared residuals (SSR) for all observations 𝑖 = 1, …, 𝑛: SSR = Σᵢ(𝑦ᵢ - 𝑓(𝐱ᵢ))². This is known as the ordinary least squares (OLS), where you try to get predicted to fit the actual response as close as possible.
 
 **4 Assumptions for Linear Regression models**
